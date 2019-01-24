@@ -6,6 +6,11 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		95EEA19021FA0FA600183186 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95EEA18E21FA0FA600183186 /* Runner.cpp */; };
+		95EEA19421FA10C300183186 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95EEA19221FA10C300183186 /* Controller.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		95EEA18221FA0E6500183186 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -20,6 +25,9 @@
 
 /* Begin PBXFileReference section */
 		95EEA18421FA0E6500183186 /* FirstClass */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FirstClass; sourceTree = BUILT_PRODUCTS_DIR; };
+		95EEA18E21FA0FA600183186 /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
+		95EEA19221FA10C300183186 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
+		95EEA19321FA10C300183186 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +60,19 @@
 		95EEA18621FA0E6500183186 /* FirstClass */ = {
 			isa = PBXGroup;
 			children = (
+				95EEA19121FA105F00183186 /* Controller */,
 			);
 			path = FirstClass;
+			sourceTree = "<group>";
+		};
+		95EEA19121FA105F00183186 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				95EEA18E21FA0FA600183186 /* Runner.cpp */,
+				95EEA19221FA10C300183186 /* Controller.cpp */,
+				95EEA19321FA10C300183186 /* Controller.hpp */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +131,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95EEA19021FA0FA600183186 /* Runner.cpp in Sources */,
+				95EEA19421FA10C300183186 /* Controller.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
